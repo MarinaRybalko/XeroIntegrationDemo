@@ -1,0 +1,11 @@
+<ng-container *ngIf="!isLoading else loading">
+<button *ngIf="!isConnected; else disconnectBlock" class="connect-btn" (click)="connect()">Connect</button>
+
+<ng-template #disconnectBlock>
+  <button class="connect-btn" (click)="disconnect()">Disconnect</button>
+</ng-template>
+</ng-container>
+
+<ng-template #loading>
+  <div class="loader"></div>
+</ng-template>

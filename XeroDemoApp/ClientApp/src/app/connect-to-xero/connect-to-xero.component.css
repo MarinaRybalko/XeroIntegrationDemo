@@ -1,0 +1,16 @@
+.connect-btn {
+  background-clip: padding-box;
+  background-color: #028dde;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1rem;
+  padding: 11px 15px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
